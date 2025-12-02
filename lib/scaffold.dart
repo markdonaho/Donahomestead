@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'features/flock/flock_screen.dart';
+import 'features/knowledge/knowledge_screen.dart';
 
 class HomesteadScaffold extends StatefulWidget {
   const HomesteadScaffold({super.key});
@@ -11,9 +13,10 @@ class _HomesteadScaffoldState extends State<HomesteadScaffold> {
   int _selectedIndex = 0;
 
   static const List<Widget> _widgetOptions = <Widget>[
-    Center(child: Text('The Flock (Chickens)', style: TextStyle(fontSize: 24))),
+    FlockScreen(),
+    Center(child: Text('Trees', style: TextStyle(fontSize: 24))),
     Center(child: Text('The Garden', style: TextStyle(fontSize: 24))),
-    Center(child: Text('Knowledge Base', style: TextStyle(fontSize: 24))),
+    KnowledgeScreen(),
   ];
 
   void _onItemTapped(int index) {
@@ -36,6 +39,10 @@ class _HomesteadScaffoldState extends State<HomesteadScaffold> {
           BottomNavigationBarItem(
             icon: Icon(Icons.egg, size: 32),
             label: 'Flock',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.park, size: 32),
+            label: 'Trees',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.grass, size: 32),

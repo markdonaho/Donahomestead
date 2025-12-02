@@ -19,3 +19,7 @@ This project uses **Flutter (Web)** for its ability to build "Chunky" UIs and **
 - **Framework**: Flutter Web project initialized.
 - **Backend**: Firebase integrated (Auth, Firestore).
 - **UI**: High-contrast theme and navigation shell implemented.
+- **Modules Completed**:
+    - **The Flock**: Daily tasks (dynamic), one-off tasks, flock info.
+    - **Knowledge Base**: Searchable library, detail view, editor.
+- **In Progress**: Trees Module.

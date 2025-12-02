@@ -20,4 +20,5 @@ class DefaultFirebaseOptions {
     authDomain: 'homestead-companion.firebaseapp.com',
     storageBucket: 'homestead-companion.firebasestorage.app',
   );
+
 }

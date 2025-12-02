@@ -36,14 +36,17 @@ A simple "Wiki" to support other modules.
 - **Detail View**: Large image at the top, readable text below.
 - **Editor**: A simple form to Add/Edit content.
 
-## Phase 4: Trees & Gardens (The Core)
-Abstract the "layout" so it doesn't become a complex drawing tool.
+## Phase 4: Trees (The Orchard)
+Simple inventory management for the trees.
 
-### 1. Trees (Simple Inventory)
-- **List view**: List of the 5 trees.
+### 1. Features
+- **List view**: List of the trees (Apple, Pear, etc.).
 - **Detail view**: Photo, Type, Age, and "Notes/Log" (e.g., "Pruned on Nov 2025").
 
-### 2. Garden Manager (Visualizing the Layout)
+## Phase 5: The Garden (Visual Layout)
+Abstract the "layout" so it doesn't become a complex drawing tool.
+
+### 1. Garden Manager
 Use a "Row Stack" approach instead of a grid.
 
 - **Garden Container**: Define "Big Garden" or "Raised Bed 1".
