@@ -17,7 +17,7 @@ Start here for immediate daily value (the To-Do list).
 ### 1. Infrastructure
 - Initialize Flutter Web project.
 - Setup Firebase (Firestore for data, Auth for login, Hosting for the web app).
-- **Auth Strategy**: Persistent Login. Use "Email Link" auth if possible.
+- **Auth Strategy**: Email/Password Authentication (implemented).
 
 ### 2. Chicken Module
 - **Daily To-Do**: A list of booleans that resets every night at 4 AM.
@@ -57,6 +57,26 @@ Use a "Row Stack" approach instead of a grid.
 ## Phase 5: Testing & Deployment
 - **The "Dad" Test**: Hand the tablet to your dad without explaining how it works.
 - **Deploy**: Firebase Hosting.
+
+## Phase 6: The Learning Center (YouTube Integration) - **IN PROGRESS**
+We have added a "Learning Center" tab to the Knowledge Base, currently testing with a single video.
+
+### 1. Strategy
+- **Scenario**: Mom clicks on "Learning Center" tab.
+- **Result**: A large video player shows the "Homesteading" playlist.
+
+### 2. Technical Implementation
+- **Package**: `youtube_player_iframe` (Flutter Web standard).
+- **Data Model**: Added `youtubePlaylistId` to `knowledge_items`.
+- **Current Status**: 
+    - [x] Basic Player Integration
+    - [ ] Full Playlist Support (Currently single video for testing)
+    - [ ] Dynamic Playlist ID handling
+
+### 3. UX Implementation
+- **Tabs**:
+    1.  **Library**: The list of Knowledge Items.
+    2.  **Learning Center**: The YouTube Player.
 
 ## Data Model Preview (Firestore)
 

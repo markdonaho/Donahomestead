@@ -18,8 +18,11 @@ This project uses **Flutter (Web)** for its ability to build "Chunky" UIs and **
 ## Current Status
 - **Framework**: Flutter Web project initialized.
 - **Backend**: Firebase integrated (Auth, Firestore).
+- **Auth**: Email/Password Authentication implemented.
 - **UI**: High-contrast theme and navigation shell implemented.
 - **Modules Completed**:
     - **The Flock**: Daily tasks (dynamic), one-off tasks, flock info.
-    - **Knowledge Base**: Searchable library, detail view, editor.
-- **In Progress**: Trees Module.
+    - **Knowledge Base**: Firestore integration, Add/Edit/Delete items.
+- **In Progress**:
+    - **The Learning Center**: Prototype implemented (single video); Playlist support pending.
+- **Next Steps**: Trees Module, Garden Module.

@@ -6,6 +6,7 @@ class KnowledgeItem {
   final String category; // 'Chicken', 'Veggie', 'Tree', 'Pest', 'General'
   final String content;
   final String? imageUrl;
+  final String? youtubePlaylistId;
 
   KnowledgeItem({
     required this.id,
@@ -13,6 +14,7 @@ class KnowledgeItem {
     required this.category,
     required this.content,
     this.imageUrl,
+    this.youtubePlaylistId,
   });
 
   factory KnowledgeItem.fromSnapshot(DocumentSnapshot doc) {
@@ -23,6 +25,7 @@ class KnowledgeItem {
       category: data['category'] ?? 'General',
       content: data['content'] ?? '',
       imageUrl: data['imageUrl'],
+      youtubePlaylistId: data['youtubePlaylistId'],
     );
   }
 
@@ -32,6 +35,7 @@ class KnowledgeItem {
       'category': category,
       'content': content,
       'imageUrl': imageUrl,
+      'youtubePlaylistId': youtubePlaylistId,
     };
   }
 
@@ -41,6 +45,7 @@ class KnowledgeItem {
     String? category,
     String? content,
     String? imageUrl,
+    String? youtubePlaylistId,
   }) {
     return KnowledgeItem(
       id: id ?? this.id,
@@ -48,6 +53,7 @@ class KnowledgeItem {
       category: category ?? this.category,
       content: content ?? this.content,
       imageUrl: imageUrl ?? this.imageUrl,
+      youtubePlaylistId: youtubePlaylistId ?? this.youtubePlaylistId,
     );
   }
 }

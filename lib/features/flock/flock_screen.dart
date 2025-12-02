@@ -216,17 +216,33 @@ class _FlockScreenState extends State<FlockScreen> {
           scale: 1.5,
           child: Checkbox(
             value: task.isCompleted,
-            onChanged: (bool? value) {
+            onChanged: (bool? value) async {
               if (value != null) {
-                _flockService.toggleTask(task.id, value);
+                try {
+                  await _flockService.toggleTask(task.id, value);
+                } catch (e) {
+                  if (context.mounted) {
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      SnackBar(content: Text('Error: $e')),
+                    );
+                  }
+                }
               }
             },
             activeColor: Theme.of(context).colorScheme.primary,
             checkColor: Colors.white,
           ),
         ),
-        onTap: () {
-          _flockService.toggleTask(task.id, !task.isCompleted);
+        onTap: () async {
+          try {
+            await _flockService.toggleTask(task.id, !task.isCompleted);
+          } catch (e) {
+            if (context.mounted) {
+              ScaffoldMessenger.of(context).showSnackBar(
+                SnackBar(content: Text('Error: $e')),
+              );
+            }
+          }
         },
         trailing: PopupMenuButton<String>(
           onSelected: (value) {

@@ -16,7 +16,7 @@ class KnowledgeDetailScreen extends StatelessWidget {
           IconButton(
             icon: const Icon(Icons.edit),
             onPressed: () {
-              Navigator.push(
+              Navigator.pushReplacement(
                 context,
                 MaterialPageRoute(
                   builder: (context) => KnowledgeEditorScreen(item: item),
@@ -28,34 +28,32 @@ class KnowledgeDetailScreen extends StatelessWidget {
       ),
       body: SingleChildScrollView(
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             if (item.imageUrl != null && item.imageUrl!.isNotEmpty)
               Image.network(
                 item.imageUrl!,
-                height: 300,
+                width: double.infinity,
+                height: 250,
                 fit: BoxFit.cover,
                 errorBuilder: (context, error, stackTrace) =>
-                    Container(height: 300, color: Colors.grey[300], child: const Icon(Icons.broken_image, size: 50)),
+                    Container(height: 250, color: Colors.grey[300], child: const Icon(Icons.broken_image, size: 50)),
               ),
             Padding(
               padding: const EdgeInsets.all(24.0),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Chip(
-                    label: Text(item.category),
-                    backgroundColor: Theme.of(context).colorScheme.secondaryContainer,
-                  ),
-                  const SizedBox(height: 16),
                   Text(
                     item.title,
-                    style: Theme.of(context).textTheme.displayMedium,
+                    style: Theme.of(context).textTheme.displaySmall?.copyWith(fontWeight: FontWeight.bold),
                   ),
+                  const SizedBox(height: 16),
+                  Chip(label: Text(item.category)),
                   const SizedBox(height: 24),
                   Text(
                     item.content,
-                    style: Theme.of(context).textTheme.bodyLarge,
+                    style: Theme.of(context).textTheme.bodyLarge?.copyWith(height: 1.6, fontSize: 18),
                   ),
                 ],
               ),

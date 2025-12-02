@@ -16,6 +16,7 @@ class _KnowledgeEditorScreenState extends State<KnowledgeEditorScreen> {
   final _titleController = TextEditingController();
   final _contentController = TextEditingController();
   final _imageUrlController = TextEditingController();
+  final _youtubePlaylistIdController = TextEditingController();
   String _selectedCategory = 'General';
   final KnowledgeService _knowledgeService = KnowledgeService();
 
@@ -28,6 +29,7 @@ class _KnowledgeEditorScreenState extends State<KnowledgeEditorScreen> {
       _titleController.text = widget.item!.title;
       _contentController.text = widget.item!.content;
       _imageUrlController.text = widget.item!.imageUrl ?? '';
+      _youtubePlaylistIdController.text = widget.item!.youtubePlaylistId ?? '';
       _selectedCategory = widget.item!.category;
     }
   }
@@ -40,6 +42,7 @@ class _KnowledgeEditorScreenState extends State<KnowledgeEditorScreen> {
         category: _selectedCategory,
         content: _contentController.text,
         imageUrl: _imageUrlController.text.isNotEmpty ? _imageUrlController.text : null,
+        youtubePlaylistId: _youtubePlaylistIdController.text.isNotEmpty ? _youtubePlaylistIdController.text : null,
       );
 
       if (widget.item == null) {
@@ -87,6 +90,11 @@ class _KnowledgeEditorScreenState extends State<KnowledgeEditorScreen> {
             TextFormField(
               controller: _imageUrlController,
               decoration: const InputDecoration(labelText: 'Image URL (Optional)'),
+            ),
+            const SizedBox(height: 16),
+            TextFormField(
+              controller: _youtubePlaylistIdController,
+              decoration: const InputDecoration(labelText: 'YouTube Playlist ID (Optional)'),
             ),
             const SizedBox(height: 16),
             TextFormField(
