@@ -9,7 +9,13 @@ This project uses **Flutter (Web)** for its ability to build "Chunky" UIs and **
 - **Typography**: Base font size 18sp+. High contrast.
 - **Input**: Minimize typing. Sliders, checkboxes, photo pickers.
 
+
 ## Modules
 1. **The Flock**: Chicken management (Daily To-Do, Tasks).
 2. **The Knowledge Base**: Wiki for homestead info.
 3. **The Garden**: Visual layout and inventory for trees and beds.
+
+## Current Status
+- **Framework**: Flutter Web project initialized.
+- **Backend**: Firebase integrated (Auth, Firestore).
+- **UI**: High-contrast theme and navigation shell implemented.
