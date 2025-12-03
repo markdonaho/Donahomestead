@@ -35,6 +35,11 @@ A simple "Wiki" to support other modules.
 - **ListView**: A searchable list of cards.
 - **Detail View**: Large image at the top, readable text below.
 - **Editor**: A simple form to Add/Edit content.
+- **Content Population**:
+    - [ ] Current Garden items (Veggie varieties)
+    - [ ] Tree varieties (Apple, Pear, etc.)
+    - [ ] Cover Crop knowledge
+    - [ ] Chicken care knowledge
 
 ## Phase 4: Trees (The Orchard)
 Simple inventory management for the trees.

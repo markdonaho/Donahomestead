@@ -1,19 +1,18 @@
 import 'package:flutter/material.dart';
-import 'tree_model.dart';
-import 'trees_service.dart';
-import 'add_edit_tree_screen.dart';
-import 'tree_detail_screen.dart';
+import 'garden_model.dart';
+import 'garden_service.dart';
+import 'garden_detail_screen.dart';
 
-class TreesScreen extends StatelessWidget {
-  const TreesScreen({super.key});
+class GardensScreen extends StatelessWidget {
+  const GardensScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
-    final TreesService treesService = TreesService();
+    final GardenService gardenService = GardenService();
 
     return Scaffold(
-      body: StreamBuilder<List<Tree>>(
-        stream: treesService.getTreesStream(),
+      body: StreamBuilder<List<Garden>>(
+        stream: gardenService.getGardensStream(),
         builder: (context, snapshot) {
           if (snapshot.hasError) {
             return Center(child: Text('Error: ${snapshot.error}'));
@@ -22,11 +21,11 @@ class TreesScreen extends StatelessWidget {
             return const Center(child: CircularProgressIndicator());
           }
 
-          final trees = snapshot.data!;
-          if (trees.isEmpty) {
+          final gardens = snapshot.data!;
+          if (gardens.isEmpty) {
             return const Center(
               child: Text(
-                'No trees in the orchard yet.',
+                'No gardens yet. Add one!',
                 style: TextStyle(fontSize: 24, color: Colors.grey),
               ),
             );
@@ -34,10 +33,10 @@ class TreesScreen extends StatelessWidget {
 
           return ListView.builder(
             padding: const EdgeInsets.all(16.0),
-            itemCount: trees.length,
+            itemCount: gardens.length,
             itemBuilder: (context, index) {
-              final tree = trees[index];
-              return _buildTreeCard(context, tree);
+              final garden = gardens[index];
+              return _buildGardenCard(context, garden);
             },
           );
         },
@@ -46,12 +45,7 @@ class TreesScreen extends StatelessWidget {
         width: 80,
         height: 80,
         child: FloatingActionButton(
-          onPressed: () {
-            Navigator.push(
-              context,
-              MaterialPageRoute(builder: (context) => const AddEditTreeScreen()),
-            );
-          },
+          onPressed: () => _showAddGardenDialog(context, gardenService),
           backgroundColor: Theme.of(context).colorScheme.primary,
           child: const Icon(Icons.add, size: 40, color: Colors.white),
         ),
@@ -59,7 +53,7 @@ class TreesScreen extends StatelessWidget {
     );
   }
 
-  Widget _buildTreeCard(BuildContext context, Tree tree) {
+  Widget _buildGardenCard(BuildContext context, Garden garden) {
     return Card(
       margin: const EdgeInsets.only(bottom: 16),
       elevation: 4,
@@ -69,48 +63,30 @@ class TreesScreen extends StatelessWidget {
           Navigator.push(
             context,
             MaterialPageRoute(
-              builder: (context) => TreeDetailScreen(tree: tree),
+              builder: (context) => GardenDetailScreen(garden: garden),
             ),
           );
         },
         borderRadius: BorderRadius.circular(16),
         child: Padding(
-          padding: const EdgeInsets.all(16.0),
+          padding: const EdgeInsets.all(24.0),
           child: Row(
             children: [
-              // Photo Placeholder
-              Container(
-                width: 100,
-                height: 100,
-                decoration: BoxDecoration(
-                  color: Colors.grey[300],
-                  borderRadius: BorderRadius.circular(12),
-                  image: tree.photoUrl != null
-                      ? DecorationImage(
-                          image: NetworkImage(tree.photoUrl!),
-                          fit: BoxFit.cover,
-                        )
-                      : null,
-                ),
-                child: tree.photoUrl == null
-                    ? const Icon(Icons.park, size: 50, color: Colors.grey)
-                    : null,
-              ),
+              const Icon(Icons.yard, size: 50, color: Colors.green),
               const SizedBox(width: 24),
-              // Text Info
               Expanded(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      tree.name,
+                      garden.name,
                       style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                             fontWeight: FontWeight.bold,
                           ),
                     ),
                     const SizedBox(height: 8),
                     Text(
-                      tree.type,
+                      '${garden.zones.length} zones',
                       style: Theme.of(context).textTheme.titleMedium?.copyWith(
                             color: Colors.grey[700],
                             fontSize: 20,
@@ -124,6 +100,47 @@ class TreesScreen extends StatelessWidget {
           ),
         ),
       ),
+    );
+  }
+
+  void _showAddGardenDialog(BuildContext context, GardenService service) {
+    final TextEditingController nameController = TextEditingController();
+
+    showDialog(
+      context: context,
+      builder: (context) {
+        return AlertDialog(
+          title: const Text('New Garden'),
+          content: TextField(
+            controller: nameController,
+            decoration: const InputDecoration(
+              labelText: 'Garden Name',
+              hintText: 'e.g., Big Garden',
+            ),
+            autofocus: true,
+          ),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.pop(context),
+              child: const Text('Cancel', style: TextStyle(fontSize: 20)),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                if (nameController.text.isNotEmpty) {
+                  final newGarden = Garden(
+                    id: '', // ID generated by Firestore
+                    name: nameController.text,
+                    zones: [],
+                  );
+                  service.addGarden(newGarden);
+                  Navigator.pop(context);
+                }
+              },
+              child: const Text('Add', style: TextStyle(fontSize: 20)),
+            ),
+          ],
+        );
+      },
     );
   }
 }

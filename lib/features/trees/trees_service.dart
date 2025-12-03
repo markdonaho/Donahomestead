@@ -1,5 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import '../models/tree_model.dart';
+import 'tree_model.dart';
 
 class TreesService {
   final CollectionReference _treesCollection =

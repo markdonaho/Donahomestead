@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../../models/tree_model.dart';
-import '../../services/trees_service.dart';
+import 'tree_model.dart';
+import 'trees_service.dart';
 
 class AddEditTreeScreen extends StatefulWidget {
   final Tree? tree;

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../models/tree_model.dart';
+import 'tree_model.dart';
 import 'add_edit_tree_screen.dart';
 
 class TreeDetailScreen extends StatelessWidget {
