@@ -25,6 +25,9 @@ This project uses **Flutter (Web)** for its ability to build "Chunky" UIs and **
     - **Knowledge Base**: Firestore integration, Add/Edit/Delete items.
     - **The Orchard (Trees)**: Refactored file structure. List view, Detail view, Add/Edit functionality.
     - **The Garden**: Implemented. List gardens, visual layout (rows/beds/walkways), add/edit/delete zones.
+    - **Knowledge Base Content**: Populated with ~75 items (Chickens, Trees, Garden).
 - **In Progress**:
-    - **The Learning Center**: Prototype implemented (single video); Playlist support pending.
-- **Next Steps**: Populate Knowledge Base (Garden, Trees, Cover Crops, Chickens).
+    - **The Learning Center**: On Hold (YouTube integration disabled).
+- **Next Steps**: 
+    - Add Cover Crop knowledge.
+    - Refine Garden Manager UI.

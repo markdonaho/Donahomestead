@@ -16,28 +16,18 @@ class _KnowledgeScreenState extends State<KnowledgeScreen> {
   final KnowledgeService _knowledgeService = KnowledgeService();
   String _searchQuery = '';
   String? _selectedCategory;
-  late YoutubePlayerController _youtubeController;
+  YoutubePlayerController? _youtubeController;
 
   final List<String> _categories = ['All', 'Chicken', 'Veggie', 'Tree', 'Pest', 'General'];
 
   @override
   void initState() {
     super.initState();
-    // Initialize YouTube Controller with a default playlist (e.g., Flutter Widget of the Week)
-    // TODO: Make this configurable by the user
-    // Initialize YouTube Controller with a default video to test
-    _youtubeController = YoutubePlayerController.fromVideoId(
-      videoId: '6DrLHqF6YmQ', // Example video (Chickens!)
-      params: const YoutubePlayerParams(
-        showControls: true,
-        showFullscreenButton: true,
-      ),
-    );
+    // YouTube integration disabled by user request
   }
 
   @override
   void dispose() {
-    _youtubeController.close();
     super.dispose();
   }
 
@@ -48,6 +38,66 @@ class _KnowledgeScreenState extends State<KnowledgeScreen> {
       child: Scaffold(
         appBar: AppBar(
           title: const Text('Knowledge Base'),
+          actions: [
+            IconButton(
+              icon: const Icon(Icons.cloud_upload),
+              tooltip: 'Seed Data',
+              onPressed: () {
+                showModalBottomSheet(
+                  context: context,
+                  builder: (context) => Container(
+                    padding: const EdgeInsets.all(16),
+                    child: Column(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        const Text('Select Data to Seed', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+                        const SizedBox(height: 16),
+                        ListTile(
+                          leading: const Icon(Icons.egg),
+                          title: const Text('Seed Chicken Knowledge'),
+                          onTap: () async {
+                            Navigator.pop(context);
+                            await _knowledgeService.seedChickenKnowledge();
+                            if (context.mounted) {
+                              ScaffoldMessenger.of(context).showSnackBar(
+                                const SnackBar(content: Text('Chicken knowledge seeded!')),
+                              );
+                            }
+                          },
+                        ),
+                        ListTile(
+                          leading: const Icon(Icons.nature),
+                          title: const Text('Seed Tree Knowledge'),
+                          onTap: () async {
+                            Navigator.pop(context);
+                            await _knowledgeService.seedTreeKnowledge();
+                            if (context.mounted) {
+                              ScaffoldMessenger.of(context).showSnackBar(
+                                const SnackBar(content: Text('Tree knowledge seeded!')),
+                              );
+                            }
+                          },
+                        ),
+                        ListTile(
+                          leading: const Icon(Icons.grass),
+                          title: const Text('Seed Garden Knowledge'),
+                          onTap: () async {
+                            Navigator.pop(context);
+                            await _knowledgeService.seedGardenKnowledge();
+                            if (context.mounted) {
+                              ScaffoldMessenger.of(context).showSnackBar(
+                                const SnackBar(content: Text('Garden knowledge seeded!')),
+                              );
+                            }
+                          },
+                        ),
+                      ],
+                    ),
+                  ),
+                );
+              },
+            ),
+          ],
           bottom: const TabBar(
             tabs: [
               Tab(text: 'Library', icon: Icon(Icons.library_books)),
@@ -225,10 +275,14 @@ class _KnowledgeScreenState extends State<KnowledgeScreen> {
             ),
 
             // TAB 2: LEARNING CENTER (YouTube Player)
-            Center(
-              child: YoutubePlayer(
-                controller: _youtubeController,
-                aspectRatio: 16 / 9,
+            const Center(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Icon(Icons.construction, size: 64, color: Colors.grey),
+                  SizedBox(height: 16),
+                  Text('Learning Center Coming Soon', style: TextStyle(fontSize: 24, color: Colors.grey)),
+                ],
               ),
             ),
           ],
