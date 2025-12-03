@@ -23,6 +23,7 @@ This project uses **Flutter (Web)** for its ability to build "Chunky" UIs and **
 - **Modules Completed**:
     - **The Flock**: Daily tasks (dynamic), one-off tasks, flock info.
     - **Knowledge Base**: Firestore integration, Add/Edit/Delete items.
+    - **The Orchard (Trees)**: List view, Detail view, Add/Edit functionality.
 - **In Progress**:
     - **The Learning Center**: Prototype implemented (single video); Playlist support pending.
-- **Next Steps**: Trees Module, Garden Module.
+- **Next Steps**: Garden Module.

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'features/flock/flock_screen.dart';
 import 'features/knowledge/knowledge_screen.dart';
+import 'features/trees/trees_screen.dart';
 
 class HomesteadScaffold extends StatefulWidget {
   const HomesteadScaffold({super.key});
@@ -14,7 +15,7 @@ class _HomesteadScaffoldState extends State<HomesteadScaffold> {
 
   static const List<Widget> _widgetOptions = <Widget>[
     FlockScreen(),
-    Center(child: Text('Trees', style: TextStyle(fontSize: 24))),
+    TreesScreen(),
     Center(child: Text('The Garden', style: TextStyle(fontSize: 24))),
     KnowledgeScreen(),
   ];
