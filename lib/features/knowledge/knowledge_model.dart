@@ -7,6 +7,7 @@ class KnowledgeItem {
   final String content;
   final String? imageUrl;
   final String? youtubePlaylistId;
+  final Map<String, dynamic>? zoneData;
 
   KnowledgeItem({
     required this.id,
@@ -15,6 +16,7 @@ class KnowledgeItem {
     required this.content,
     this.imageUrl,
     this.youtubePlaylistId,
+    this.zoneData,
   });
 
   factory KnowledgeItem.fromSnapshot(DocumentSnapshot doc) {
@@ -26,6 +28,7 @@ class KnowledgeItem {
       content: data['content'] ?? '',
       imageUrl: data['imageUrl'],
       youtubePlaylistId: data['youtubePlaylistId'],
+      zoneData: data['zoneData'],
     );
   }
 
@@ -36,6 +39,7 @@ class KnowledgeItem {
       'content': content,
       'imageUrl': imageUrl,
       'youtubePlaylistId': youtubePlaylistId,
+      'zoneData': zoneData,
     };
   }
 
@@ -46,6 +50,7 @@ class KnowledgeItem {
     String? content,
     String? imageUrl,
     String? youtubePlaylistId,
+    Map<String, dynamic>? zoneData,
   }) {
     return KnowledgeItem(
       id: id ?? this.id,
@@ -54,6 +59,7 @@ class KnowledgeItem {
       content: content ?? this.content,
       imageUrl: imageUrl ?? this.imageUrl,
       youtubePlaylistId: youtubePlaylistId ?? this.youtubePlaylistId,
+      zoneData: zoneData ?? this.zoneData,
     );
   }
 }

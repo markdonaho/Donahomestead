@@ -1,0 +1,487 @@
+[
+  {
+    "title": "Tomatoes (Zone 7)",
+    "category": "Veggie",
+    "image_url": "https://images.unsplash.com/photo-1592841200221-a6898f307baa?auto=format&fit=crop&w=800&q=80",
+    "content": "**Planting Window:** April 10 - April 30 (Spring)\n**Days to Harvest:** 70-90\n**Spacing:** 3-5 ft apart\n\n**Oklahoma Tips:**\n* Plant AFTER the soil hits 50\u00b0F (usually mid-April).\n* Tomatoes stop setting fruit when night temps stay above 75\u00b0F (July/Aug).\n* Watch for Hornworms in June.\n* **Varieties:** Better Boy, Celebrity, Jet Star.",
+    "zone_data": {
+      "plant_start": "04-10",
+      "plant_end": "04-30",
+      "harvest_window": "July-October"
+    }
+  },
+  {
+    "title": "Cherry Tomatoes",
+    "category": "Veggie",
+    "image_url": "https://images.unsplash.com/photo-1561136594-7f68413baa99?auto=format&fit=crop&w=800&q=80",
+    "content": "**Planting Window:** April 10 - April 30\n**Days to Harvest:** 60-70\n**Spacing:** 2-3 ft apart\n\n**Oklahoma Tips:**\n* More heat tolerant than large tomatoes.\n* Indeterminate varieties grow HUGE - trellis well.\n* **Varieties:** Super Sweet 100, Sungold.",
+    "zone_data": {
+      "plant_start": "04-10",
+      "plant_end": "04-30",
+      "harvest_window": "June-Frost"
+    }
+  },
+  {
+    "title": "Peppers (Bell)",
+    "category": "Veggie",
+    "image_url": "https://images.unsplash.com/photo-1563565375-f3fdf5d6d37c?auto=format&fit=crop&w=800&q=80",
+    "content": "**Planting Window:** April 10 - April 30\n**Days to Harvest:** 70-90\n**Spacing:** 1.5-2 ft apart\n\n**Oklahoma Tips:**\n* Needs consistent moisture to prevent blossom drop.\n* Shade cloth in July/Aug helps prevent sunscald.\n* **Varieties:** Keystone Resistant Giant, Jupiter.",
+    "zone_data": {
+      "plant_start": "04-10",
+      "plant_end": "04-30",
+      "harvest_window": "July-Frost"
+    }
+  },
+  {
+    "title": "Peppers (Hot)",
+    "category": "Veggie",
+    "image_url": "https://images.unsplash.com/photo-1588252303782-cb80119abd6d?auto=format&fit=crop&w=800&q=80",
+    "content": "**Planting Window:** April 10 - May 15\n**Days to Harvest:** 60-90\n**Spacing:** 1.5 ft apart\n\n**Oklahoma Tips:**\n* Thrives in OK heat.\n* Reduce watering slightly as fruit matures to increase heat (capsaicin).\n* **Varieties:** Jalapeno M, Tam Mild Jalapeno, Habanero.",
+    "zone_data": {
+      "plant_start": "04-10",
+      "plant_end": "05-15",
+      "harvest_window": "July-Frost"
+    }
+  },
+  {
+    "title": "Okra",
+    "category": "Veggie",
+    "image_url": "https://images.unsplash.com/photo-1469321461812-afeb94496b27?auto=format&fit=crop&w=800&q=80",
+    "content": "**Planting Window:** April 10 - May 30\n**Days to Harvest:** 50-60\n**Spacing:** 1.5 ft apart\n\n**Oklahoma Tips:**\n* Soak seeds overnight to speed germination.\n* Harvest pods when 3-4 inches long (every 2 days).\n* **Varieties:** Clemson Spineless, Emerald.",
+    "zone_data": {
+      "plant_start": "04-10",
+      "plant_end": "05-30",
+      "harvest_window": "July-Frost"
+    }
+  },
+  {
+    "title": "Green Beans (Bush)",
+    "category": "Veggie",
+    "image_url": "https://images.unsplash.com/photo-1592323630676-e4a0655d82e1?auto=format&fit=crop&w=800&q=80",
+    "content": "**Planting Window:** April 10 - April 30\n**Days to Harvest:** 50-60\n**Spacing:** 3-4 inches\n\n**Oklahoma Tips:**\n* Plant every 2 weeks for continuous harvest.\n* Do not handle when wet.\n* **Varieties:** Contender, Top Crop, Blue Lake 274.",
+    "zone_data": {
+      "plant_start": "04-10",
+      "plant_end": "04-30",
+      "harvest_window": "June-July"
+    }
+  },
+  {
+    "title": "Green Beans (Pole)",
+    "category": "Veggie",
+    "image_url": "https://images.unsplash.com/photo-1567306301408-9b74779a11af?auto=format&fit=crop&w=800&q=80",
+    "content": "**Planting Window:** April 10 - April 30\n**Days to Harvest:** 60-70\n**Spacing:** 6 inches\n\n**Oklahoma Tips:**\n* Requires a strong trellis (6-8ft).\n* Produces over a longer season than bush beans.\n* **Varieties:** Kentucky Wonder.",
+    "zone_data": {
+      "plant_start": "04-10",
+      "plant_end": "04-30",
+      "harvest_window": "June-Frost"
+    }
+  },
+  {
+    "title": "Cucumbers (Slicing)",
+    "category": "Veggie",
+    "image_url": "https://images.unsplash.com/photo-1449300079323-02e209d9d3a6?auto=format&fit=crop&w=800&q=80",
+    "content": "**Planting Window:** April 10 - April 30\n**Days to Harvest:** 55-65\n**Spacing:** 1 ft (trellised)\n\n**Oklahoma Tips:**\n* Bitterness is caused by heat/water stress.\n* Trellis to keep fruit straight and clean.\n* **Varieties:** Sweet Slice, Burpless.",
+    "zone_data": {
+      "plant_start": "04-10",
+      "plant_end": "04-30",
+      "harvest_window": "June-August"
+    }
+  },
+  {
+    "title": "Cucumbers (Pickling)",
+    "category": "Veggie",
+    "image_url": "https://images.unsplash.com/photo-1570586437263-160f27295876?auto=format&fit=crop&w=800&q=80",
+    "content": "**Planting Window:** April 10 - April 30\n**Days to Harvest:** 50-60\n**Spacing:** 1 ft (trellised)\n\n**Oklahoma Tips:**\n* Harvest daily when small (2-4 inches).\n* **Varieties:** National Pickling, Boston Pickling.",
+    "zone_data": {
+      "plant_start": "04-10",
+      "plant_end": "04-30",
+      "harvest_window": "June-August"
+    }
+  },
+  {
+    "title": "Squash (Zucchini)",
+    "category": "Veggie",
+    "image_url": "https://images.unsplash.com/photo-1569348332518-406b6339d66c?auto=format&fit=crop&w=800&q=80",
+    "content": "**Planting Window:** April 10 - April 30\n**Days to Harvest:** 40-50\n**Spacing:** 3-4 ft (hills)\n\n**Oklahoma Tips:**\n* Watch for Squash Bugs and Vine Borers.\n* Harvest when 6-8 inches long.\n* **Varieties:** Black Beauty, Aristocrat.",
+    "zone_data": {
+      "plant_start": "04-10",
+      "plant_end": "04-30",
+      "harvest_window": "June-August"
+    }
+  },
+  {
+    "title": "Squash (Yellow)",
+    "category": "Veggie",
+    "image_url": "https://images.unsplash.com/photo-1533658286897-422931dc4b3b?auto=format&fit=crop&w=800&q=80",
+    "content": "**Planting Window:** April 10 - April 30\n**Days to Harvest:** 40-50\n**Spacing:** 3-4 ft (hills)\n\n**Oklahoma Tips:**\n* Harvest when skin is tender.\n* **Varieties:** Early Prolific Straightneck.",
+    "zone_data": {
+      "plant_start": "04-10",
+      "plant_end": "04-30",
+      "harvest_window": "June-August"
+    }
+  },
+  {
+    "title": "Pumpkin",
+    "category": "Veggie",
+    "image_url": "https://images.unsplash.com/photo-1506917728037-b6af011561b2?auto=format&fit=crop&w=800&q=80",
+    "content": "**Planting Window:** June 15 - July 5 (for Halloween)\n**Days to Harvest:** 90-110\n**Spacing:** 5-6 ft\n\n**Oklahoma Tips:**\n* Planting in June avoids the worst of the squash bugs.\n* Needs lots of water.\n* **Varieties:** Jack O'Lantern, Small Sugar.",
+    "zone_data": {
+      "plant_start": "06-15",
+      "plant_end": "07-05",
+      "harvest_window": "October"
+    }
+  },
+  {
+    "title": "Watermelon",
+    "category": "Veggie",
+    "image_url": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&w=800&q=80",
+    "content": "**Planting Window:** May 1 - May 20\n**Days to Harvest:** 80-100\n**Spacing:** 6-8 ft\n\n**Oklahoma Tips:**\n* Needs sandy soil and heat.\n* Harvest when the tendril nearest the fruit dries up.\n* **Varieties:** Crimson Sweet, Sugar Baby.",
+    "zone_data": {
+      "plant_start": "05-01",
+      "plant_end": "05-20",
+      "harvest_window": "August-September"
+    }
+  },
+  {
+    "title": "Cantaloupe",
+    "category": "Veggie",
+    "image_url": "https://images.unsplash.com/photo-1595123550441-d377e017de6a?auto=format&fit=crop&w=800&q=80",
+    "content": "**Planting Window:** May 1 - May 20\n**Days to Harvest:** 80-90\n**Spacing:** 4-6 ft\n\n**Oklahoma Tips:**\n* Harvest when the stem 'slips' (pulls away easily) from the fruit.\n* **Varieties:** Hale's Best, Ambrosia.",
+    "zone_data": {
+      "plant_start": "05-01",
+      "plant_end": "05-20",
+      "harvest_window": "July-September"
+    }
+  },
+  {
+    "title": "Sweet Potato",
+    "category": "Veggie",
+    "image_url": "https://images.unsplash.com/photo-1596097635121-14b63b7a0c19?auto=format&fit=crop&w=800&q=80",
+    "content": "**Planting Window:** May 15 - June 10\n**Days to Harvest:** 90-120\n**Spacing:** 12 inches\n\n**Oklahoma Tips:**\n* Plant slips, not seeds.\n* Loves hot weather.\n* **Varieties:** Beauregard.",
+    "zone_data": {
+      "plant_start": "05-15",
+      "plant_end": "06-10",
+      "harvest_window": "September-October"
+    }
+  },
+  {
+    "title": "Irish Potato",
+    "category": "Veggie",
+    "image_url": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=800&q=80",
+    "content": "**Planting Window:** Feb 15 - March 10\n**Days to Harvest:** 90-120\n**Spacing:** 1 ft\n\n**Oklahoma Tips:**\n* Plant seed potatoes with eyes.\n* Hill soil around stems.\n* **Varieties:** Kennebec, Red Pontiac.",
+    "zone_data": {
+      "plant_start": "02-15",
+      "plant_end": "03-10",
+      "harvest_window": "June"
+    }
+  },
+  {
+    "title": "Onion",
+    "category": "Veggie",
+    "image_url": "https://images.unsplash.com/photo-1618512496248-a07fe83aa8cb?auto=format&fit=crop&w=800&q=80",
+    "content": "**Planting Window:** Feb 15 - March 10\n**Days to Harvest:** 100-120\n**Spacing:** 4-6 inches\n\n**Oklahoma Tips:**\n* Use 'Intermediate Day' varieties.\n* Plant plants (transplants), not sets, for big onions.\n* **Varieties:** Candy, Super Sweet.",
+    "zone_data": {
+      "plant_start": "02-15",
+      "plant_end": "03-10",
+      "harvest_window": "June"
+    }
+  },
+  {
+    "title": "Garlic",
+    "category": "Veggie",
+    "image_url": "https://images.unsplash.com/photo-1615477095037-332906b38865?auto=format&fit=crop&w=800&q=80",
+    "content": "**Planting Window:** Sept 15 - Oct 15\n**Days to Harvest:** 240+\n**Spacing:** 4-6 inches\n\n**Oklahoma Tips:**\n* Plant cloves in Fall, harvest in Summer.\n* Hardneck varieties produce scapes.\n* **Varieties:** Music, German Red.",
+    "zone_data": {
+      "plant_start": "09-15",
+      "plant_end": "10-15",
+      "harvest_window": "June"
+    }
+  },
+  {
+    "title": "Carrots",
+    "category": "Veggie",
+    "image_url": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?auto=format&fit=crop&w=800&q=80",
+    "content": "**Planting Window:** Feb 15 - March 10\n**Days to Harvest:** 70-80\n**Spacing:** 2-3 inches\n\n**Oklahoma Tips:**\n* Soil must be loose and sandy.\n* Keep surface moist for germination (cover with board).\n* **Varieties:** Danvers, Nantes.",
+    "zone_data": {
+      "plant_start": "02-15",
+      "plant_end": "03-10",
+      "harvest_window": "May-June"
+    }
+  },
+  {
+    "title": "Beets",
+    "category": "Veggie",
+    "image_url": "https://images.unsplash.com/photo-1593105544559-ecb03bf71f60?auto=format&fit=crop&w=800&q=80",
+    "content": "**Planting Window:** Feb 15 - March 10\n**Days to Harvest:** 50-60\n**Spacing:** 3-4 inches\n\n**Oklahoma Tips:**\n* Thinning is essential (seeds are clusters).\n* Greens are edible.\n* **Varieties:** Detroit Dark Red.",
+    "zone_data": {
+      "plant_start": "02-15",
+      "plant_end": "03-10",
+      "harvest_window": "May-June"
+    }
+  },
+  {
+    "title": "Radish",
+    "category": "Veggie",
+    "image_url": "https://images.unsplash.com/photo-1506459225024-1428097a7e18?auto=format&fit=crop&w=800&q=80",
+    "content": "**Planting Window:** Feb 15 - March 15\n**Days to Harvest:** 25-30\n**Spacing:** 1 inch\n\n**Oklahoma Tips:**\n* Plant every 10 days for continuous supply.\n* Gets woody/hot if left too long.\n* **Varieties:** Cherry Belle, French Breakfast.",
+    "zone_data": {
+      "plant_start": "02-15",
+      "plant_end": "03-15",
+      "harvest_window": "March-April"
+    }
+  },
+  {
+    "title": "Spinach",
+    "category": "Veggie",
+    "image_url": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?auto=format&fit=crop&w=800&q=80",
+    "content": "**Planting Window:** Feb 15 - March 10\n**Days to Harvest:** 30-45\n**Spacing:** 3 inches\n\n**Oklahoma Tips:**\n* Bolts quickly in heat.\n* Overwinters well if planted in Fall.\n* **Varieties:** Bloomsdale Long Standing.",
+    "zone_data": {
+      "plant_start": "02-15",
+      "plant_end": "03-10",
+      "harvest_window": "April-May"
+    }
+  },
+  {
+    "title": "Lettuce (Leaf)",
+    "category": "Veggie",
+    "image_url": "https://images.unsplash.com/photo-1622206151226-18ca2c9ab4a1?auto=format&fit=crop&w=800&q=80",
+    "content": "**Planting Window:** Feb 15 - March 15\n**Days to Harvest:** 40-50\n**Spacing:** 4-6 inches\n\n**Oklahoma Tips:**\n* Use shade cloth to extend season.\n* Black Seeded Simpson is very reliable.\n* **Varieties:** Black Seeded Simpson, Red Sails.",
+    "zone_data": {
+      "plant_start": "02-15",
+      "plant_end": "03-15",
+      "harvest_window": "April-May"
+    }
+  },
+  {
+    "title": "Kale",
+    "category": "Veggie",
+    "image_url": "https://images.unsplash.com/photo-1524179091875-bf99a9a6af57?auto=format&fit=crop&w=800&q=80",
+    "content": "**Planting Window:** Feb 15 - March 15\n**Days to Harvest:** 50-60\n**Spacing:** 1 ft\n\n**Oklahoma Tips:**\n* Flavor improves after a frost.\n* Very hardy.\n* **Varieties:** Lacinato (Dino), Vates.",
+    "zone_data": {
+      "plant_start": "02-15",
+      "plant_end": "03-15",
+      "harvest_window": "May-Winter"
+    }
+  },
+  {
+    "title": "Asparagus",
+    "category": "Veggie",
+    "image_url": "https://images.unsplash.com/photo-1515471209610-dae1c92d8777?auto=format&fit=crop&w=800&q=80",
+    "content": "**Planting Window:** Feb 15 - March 15\n**Days to Harvest:** 2-3 Years\n**Spacing:** 18 inches\n\n**Oklahoma Tips:**\n* Perennial crop (lasts 15+ years).\n* Do not harvest the first year.\n* **Varieties:** Jersey Knight, UC 157.",
+    "zone_data": {
+      "plant_start": "02-15",
+      "plant_end": "03-15",
+      "harvest_window": "April-May"
+    }
+  },
+  {
+    "title": "Peach (General)",
+    "category": "Tree",
+    "image_url": "https://images.unsplash.com/photo-1629821665246-88d42345517e?auto=format&fit=crop&w=800&q=80",
+    "content": "**Care:** Prune to open center (vase shape). Thin fruit to 6-8 inches apart.\n**Pests:** Borers, Curculio.\n**Oklahoma:** The quintessential OK fruit tree.",
+    "zone_data": {}
+  },
+  {
+    "title": "Peach (Elberta)",
+    "category": "Tree",
+    "image_url": "https://images.unsplash.com/photo-1595126486008-8254473b61f9?auto=format&fit=crop&w=800&q=80",
+    "content": "**Variety:** Elberta\n**Harvest:** Late July/August\n**Notes:** Large, yellow-fleshed freestone. Old favorite for canning.",
+    "zone_data": {}
+  },
+  {
+    "title": "Apple (Gala)",
+    "category": "Tree",
+    "image_url": "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?auto=format&fit=crop&w=800&q=80",
+    "content": "**Variety:** Gala\n**Harvest:** August\n**Notes:** Sweet, crisp. Does well in OK heat. Susceptible to Cedar Apple Rust.",
+    "zone_data": {}
+  },
+  {
+    "title": "Apple (Fuji)",
+    "category": "Tree",
+    "image_url": "https://images.unsplash.com/photo-1589217157232-464b797b658d?auto=format&fit=crop&w=800&q=80",
+    "content": "**Variety:** Fuji\n**Harvest:** October\n**Notes:** Very sweet, keeps well. Late ripener.",
+    "zone_data": {}
+  },
+  {
+    "title": "Pear (Bartlett)",
+    "category": "Tree",
+    "image_url": "https://images.unsplash.com/photo-1632688028271-2093026e6757?auto=format&fit=crop&w=800&q=80",
+    "content": "**Variety:** Bartlett\n**Harvest:** August\n**Notes:** Classic pear. Susceptible to Fire Blight (prune out infections immediately).",
+    "zone_data": {}
+  },
+  {
+    "title": "Pear (Asian)",
+    "category": "Tree",
+    "image_url": "https://images.unsplash.com/photo-1525286102393-8636643452e3?auto=format&fit=crop&w=800&q=80",
+    "content": "**Variety:** Asian (Hosui/Chojuro)\n**Harvest:** August/Sept\n**Notes:** Crisp like an apple. Very productive. Needs thinning.",
+    "zone_data": {}
+  },
+  {
+    "title": "Plum (Methley)",
+    "category": "Tree",
+    "image_url": "https://images.unsplash.com/photo-1603052875302-d376b7c0638a?auto=format&fit=crop&w=800&q=80",
+    "content": "**Variety:** Methley\n**Harvest:** June\n**Notes:** Self-fertile. Sweet, red flesh. Early ripener.",
+    "zone_data": {}
+  },
+  {
+    "title": "Cherry (Tart)",
+    "category": "Tree",
+    "image_url": "https://images.unsplash.com/photo-1528821128474-27f963b0bdd4?auto=format&fit=crop&w=800&q=80",
+    "content": "**Variety:** Montmorency\n**Harvest:** June\n**Notes:** Best cherry for OK. Sweet cherries struggle here. Great for pies.",
+    "zone_data": {}
+  },
+  {
+    "title": "Fig (Brown Turkey)",
+    "category": "Tree",
+    "image_url": "https://images.unsplash.com/photo-1628689469838-524a4a973b8e?auto=format&fit=crop&w=800&q=80",
+    "content": "**Variety:** Brown Turkey\n**Harvest:** July-Frost\n**Notes:** Needs winter protection in Zone 7 (mulch heavily or wrap).",
+    "zone_data": {}
+  },
+  {
+    "title": "Persimmon (Native)",
+    "category": "Tree",
+    "image_url": "https://images.unsplash.com/photo-1605218427368-35b0f0a28395?auto=format&fit=crop&w=800&q=80",
+    "content": "**Variety:** American Persimmon\n**Harvest:** Late Fall (after frost)\n**Notes:** Very hardy. Astringent until fully soft/ripe.",
+    "zone_data": {}
+  },
+  {
+    "title": "Pecan",
+    "category": "Tree",
+    "image_url": "https://images.unsplash.com/photo-1543158181-e6f9f6712055?auto=format&fit=crop&w=800&q=80",
+    "content": "**Variety:** Improved (Pawnee, Kanza)\n**Harvest:** October/November\n**Notes:** Oklahoma's state tree. Scab resistant varieties are best.",
+    "zone_data": {}
+  },
+  {
+    "title": "Blackberry",
+    "category": "Tree",
+    "image_url": "https://images.unsplash.com/photo-1615485925694-a69ea5bd30f0?auto=format&fit=crop&w=800&q=80",
+    "content": "**Variety:** Ouachita (Thornless)\n**Harvest:** June\n**Notes:** Erect canes. No trellis needed. Very productive.",
+    "zone_data": {}
+  },
+  {
+    "title": "Raspberry",
+    "category": "Tree",
+    "image_url": "https://images.unsplash.com/photo-1577069861033-55d04cec4ef5?auto=format&fit=crop&w=800&q=80",
+    "content": "**Variety:** Heritage\n**Harvest:** June & Sept\n**Notes:** Struggles in OK heat. Mulch heavily and provide afternoon shade.",
+    "zone_data": {}
+  },
+  {
+    "title": "Strawberry",
+    "category": "Tree",
+    "image_url": "https://images.unsplash.com/photo-1589606663935-172965604161?auto=format&fit=crop&w=800&q=80",
+    "content": "**Variety:** Chandler, Sweet Charlie\n**Harvest:** May\n**Notes:** Plant in raised beds. Renovate beds after harvest.",
+    "zone_data": {}
+  },
+  {
+    "title": "Grape",
+    "category": "Tree",
+    "image_url": "https://images.unsplash.com/photo-1596363805836-674c1e956d5b?auto=format&fit=crop&w=800&q=80",
+    "content": "**Variety:** Mars (Seedless)\n**Harvest:** August\n**Notes:** Table grape. Disease resistant. Prune heavily in winter.",
+    "zone_data": {}
+  },
+  {
+    "title": "Bumblefoot",
+    "category": "Chicken",
+    "image_url": "https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?auto=format&fit=crop&w=800&q=80",
+    "content": "**Symptoms:** Black scab on foot pad, limping.\n**Treatment:** Soak in Epsom salts, remove scab (kernel), apply antibiotic, wrap.\n**Prevention:** Smooth roosts, soft bedding.",
+    "zone_data": {}
+  },
+  {
+    "title": "Mites",
+    "category": "Chicken",
+    "image_url": "",
+    "content": "**Symptoms:** Dirty vent feathers, pale comb, reluctance to coop up.\n**Treatment:** Elector PSP or Permethrin dust. Treat coop and birds.",
+    "zone_data": {}
+  },
+  {
+    "title": "Lice",
+    "category": "Chicken",
+    "image_url": "",
+    "content": "**Symptoms:** White egg clumps (nits) at base of feathers near vent.\n**Treatment:** Permethrin dust/spray. Repeat in 7-10 days.",
+    "zone_data": {}
+  },
+  {
+    "title": "Coccidiosis",
+    "category": "Chicken",
+    "image_url": "",
+    "content": "**Symptoms:** Bloody poop, lethargy, ruffled feathers (chicks).\n**Treatment:** Corid (Amprolium) in water for 5 days.",
+    "zone_data": {}
+  },
+  {
+    "title": "Egg Bound",
+    "category": "Chicken",
+    "image_url": "",
+    "content": "**Symptoms:** Penguin walking, straining, distress.\n**Treatment:** Warm Epsom salt bath, calcium gluconate, lubricant.",
+    "zone_data": {}
+  },
+  {
+    "title": "Sour Crop",
+    "category": "Chicken",
+    "image_url": "",
+    "content": "**Symptoms:** Squishy, smelly crop.\n**Treatment:** Withhold food/water for 12 hrs, then antifungal (Monistat/Nystatin).",
+    "zone_data": {}
+  },
+  {
+    "title": "Impacted Crop",
+    "category": "Chicken",
+    "image_url": "",
+    "content": "**Symptoms:** Hard crop that doesn't empty overnight.\n**Treatment:** Oil massage, water. Surgery if severe.",
+    "zone_data": {}
+  },
+  {
+    "title": "Frostbite",
+    "category": "Chicken",
+    "image_url": "",
+    "content": "**Symptoms:** Black tips on comb/wattles.\n**Prevention:** Low humidity in coop (ventilation!). Vaseline on combs.",
+    "zone_data": {}
+  },
+  {
+    "title": "Heat Stress",
+    "category": "Chicken",
+    "image_url": "https://images.unsplash.com/photo-1560709447-2e29056297c6?auto=format&fit=crop&w=800&q=80",
+    "content": "**Symptoms:** Panting, wings out.\n**Treatment:** Cool water, electrolytes, ice, shade, misters.",
+    "zone_data": {}
+  },
+  {
+    "title": "Molting",
+    "category": "Chicken",
+    "image_url": "",
+    "content": "**Info:** Annual feather loss (usually Fall). Hens stop laying.\n**Care:** High protein feed (20%), minimize handling.",
+    "zone_data": {}
+  },
+  {
+    "title": "Broodiness",
+    "category": "Chicken",
+    "image_url": "",
+    "content": "**Info:** Hen sits on eggs and won't leave.\n**Breaking:** 'Broody Jail' (wire cage, no bedding) for 3 days to cool belly.",
+    "zone_data": {}
+  },
+  {
+    "title": "Pasty Butt",
+    "category": "Chicken",
+    "image_url": "",
+    "content": "**Info:** Poop stuck to chick vent. Fatal if blocked.\n**Treatment:** Warm wet cloth to clean. Apply oil.",
+    "zone_data": {}
+  },
+  {
+    "title": "Scaly Leg Mites",
+    "category": "Chicken",
+    "image_url": "",
+    "content": "**Symptoms:** Raised, crusty leg scales.\n**Treatment:** Smother with Vaseline/oil daily for 2 weeks.",
+    "zone_data": {}
+  },
+  {
+    "title": "Wry Neck",
+    "category": "Chicken",
+    "image_url": "",
+    "content": "**Symptoms:** Twisted neck, looking up.\n**Treatment:** Vitamin E + Selenium.",
+    "zone_data": {}
+  },
+  {
+    "title": "Predator Proofing",
+    "category": "Chicken",
+    "image_url": "https://images.unsplash.com/photo-1580661869408-55ab23f2ca6e?auto=format&fit=crop&w=800&q=80",
+    "content": "**Predators:** Raccoons, Hawks, Coyotes.\n**Tips:** Hardware cloth (not chicken wire), covered run, secure latches.",
+    "zone_data": {}
+  }
+]
